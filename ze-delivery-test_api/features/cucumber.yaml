@@ -1,0 +1,5 @@
+---
+default: -p dot -p html
+bdd: --format pretty # => executando de forma tradicional
+dot: --format progress # => executando no formato progress
+html: --format html --out=logs/report.html # => executando html
